@@ -1,0 +1,155 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #5D5D7D;
+    font-weight: 400;
+}
+
+.general-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-container {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 381px;
+    left: 136px;
+}
+
+.right-container {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    background: rgba(93,93,125,0.16); /*usamos rgba para adicionar a opacidade apenas no elemento em questão*/
+    position: absolute;
+}
+
+img {
+    position: relative;
+    top: 20%;
+    right: 140px;
+    width: 456px;
+    height: 561px;
+}
+
+header {
+    margin: 24px 0 0 57px;
+    font-size: 28px;
+    line-height: 41.5px;   
+}
+
+a {
+    padding-right: 41px;
+    cursor: pointer;
+}
+
+a:nth-child(2) {
+    opacity: 0.4; 
+    /*esta é uma pseudo-classe que permite mudar apenas
+    um elemento filho. Neste caso, o elemento pai é a
+    tag <header> e os filhos são os links <a>. Isso é
+    feito para que não seja necessário criar classes
+    quando houver vários elementos de uma mesma tag dentro
+    de um elemento pai*/
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.8;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    width: 368px;
+    height: 160px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    width: 540px;
+    height: 144px;
+    opacity: 0.6;
+    margin: 15px 0;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .left-container {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+        position: static;
+    }
+
+    .right-container {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+        height: 104px;
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        height: 96px;
+        line-height: 24px;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        height: 62px;
+    }
+}
