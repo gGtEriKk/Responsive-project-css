@@ -8,7 +8,7 @@
 
 >Imagens com os resultados do projeto:
 
-<h1 align="center">
+<h1 align="left">
     <img src="" alt="imagem do projeto no celular">
     <img src="" alt="imagem do projeto no computador">
 </h1>
