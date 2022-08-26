@@ -9,6 +9,6 @@
 >Imagens com os resultados do projeto:
 
 <h1 align="left">
-    <img src="" alt="imagem do projeto no celular">
-    <img src="" alt="imagem do projeto no computador">
+    <img src="" alt="imagem do projeto no celular" display="inline">
+    <img src="" alt="imagem do projeto no computador" display="inline">
 </h1>
