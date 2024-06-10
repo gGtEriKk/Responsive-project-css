@@ -3,7 +3,7 @@
 
 <h1>Descrição do projeto:</h1>
 
-<p>Projeto de tela de login de um site de compras online compatível também com celulares.</p>
+<p>Projeto de tela de login de um site de compras online. Este projeto foi mais desafiador e foram postos em prática os conceitos de div e como fazer para colocar cada elemento em seu devido lugar em uma página. Ainda foi adicionada responsividade, ficando mais desafiador ainda. Foram utilizados HTML e CSS.</p>
 
 <br>
 
